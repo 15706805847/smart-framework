@@ -58,7 +58,16 @@ public final class ConfigHelper {
      * @Date: Created in 14:34 2018/4/16
      */
     public static String getAppBasePackage(){
+
         return CONFIG_PROPS.getString(ConfigConstant.APP_BASE_PACKAGE);
+    }
+    /**
+     * @Author: kaiming.yin
+     * @Description: 获取应用jsp路径
+     * @Date: Created in 14:34 2018/4/16
+     */
+    public static String getAppJspPath(){
+        return CONFIG_PROPS.getString(ConfigConstant.APP_JSP_PATH);
     }
 
    /**
